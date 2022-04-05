@@ -1,12 +1,11 @@
 CS126 final project: going down as a ball
 
 What project you want to do
-There will be boards on the window and the window is constantly scrolling down, 
-you have to control the ball to fall from the board to another ball to avoid 
-falling out of the window.
+You will control a ball on a board, There will be boards on the window and the window is constantly going up, to avoid the ball from vanishing from the upper side of the window 
+or falling down and vanish from the bottom side of the window, you have to control the ball to land on another board
 
 What background knowledge do you have on this kind of project, and why do you want to do this project? (Put another way, in what way will you be motivated to see this project to completion?)
-This game is related to the previous assignments with ball collisions, so the previous assignments already gave me background knowledge. And this is a classic game
+This game is related to the previous assignments like ball collisions, so the previous assignments already gave me background knowledge. And this is a classic game
 that I used to play as a child, I will be happy to see if I can recollect my childhood memory
 
 A rough timeline of what will get accomplished and when (e.g, "By the end of Week 2, I will have implemented XYZ and will start working on ABC")
