@@ -16,7 +16,7 @@ namespace droppingball  {
    */
     public:
 
-        Ball(const float radius, const vec2 position, const vec2 velocity);
+        Ball( float radius,  vec2 position,  vec2 velocity);
 
         void MoveBall();
 

@@ -319,6 +319,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\apps\cinder_app_main.cc" />
     <ClCompile Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\src\ball.cc" />
     <ClCompile Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\src\stair.cc" />
+    <ClCompile Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\src\dropping_ball_game.cc" />
+    <ClCompile Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\src\container.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\ZERO_CHECK.vcxproj">
