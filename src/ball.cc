@@ -4,10 +4,6 @@
 using glm::vec2;
 namespace droppingball {
 
-    Ball::Ball() {
-        ci::app::setWindowSize(1000, 1000);
-    }
-
     Ball::Ball(float radius, vec2 position, vec2 velocity) {
         initial_position_ = position;
         radius_ = radius;
