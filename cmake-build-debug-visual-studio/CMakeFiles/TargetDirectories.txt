@@ -1,0 +1,4 @@
+C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/dropping-ball.dir
+C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/dropping-ball-test.dir
+C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/ALL_BUILD.dir
+C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/ZERO_CHECK.dir

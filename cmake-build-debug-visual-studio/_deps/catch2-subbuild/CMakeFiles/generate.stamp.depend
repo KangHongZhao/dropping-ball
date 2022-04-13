@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/3.21.1/CMakeSystem.cmake
+C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeLists.txt
+C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-cfgcmd.txt.in
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/ExternalProject-gitupdate.cmake.in
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/ExternalProject.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+D:/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/RepositoryInfo.txt.in

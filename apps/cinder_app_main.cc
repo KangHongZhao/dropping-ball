@@ -1,10 +1,10 @@
 #include "ball.h"
 
-using dropping_ball::dropping_ball_app;
+using droppingball::Ball;
 
-void prepareSettings(BasketballGame::Settings* settings) {
+void prepareSettings(Ball::Settings* settings) {
     settings->setResizable(false);
 }
 
 // This line is a macro that expands into an "int main()" function.
-CINDER_APP(BasketballGame, ci::app::RendererGl, prepareSettings);
+CINDER_APP(Ball, ci::app::RendererGl, prepareSettings);

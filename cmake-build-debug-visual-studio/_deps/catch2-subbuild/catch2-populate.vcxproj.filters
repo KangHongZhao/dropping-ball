@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\a885cae6b8b71f378ca1d70486e62c23\catch2-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\75ae5be8b9717a47a03fbb00caf4c673\catch2-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\2037f2358da19e298e80728ec01e6d7f\catch2-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\_deps\catch2-subbuild\CMakeFiles\catch2-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{388CD34F-95E9-3747-ADD5-4ACB4D8D146A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
