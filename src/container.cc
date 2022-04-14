@@ -1,3 +1,4 @@
+
 #include "container.h"
 
 namespace droppingball {
@@ -17,7 +18,10 @@ namespace droppingball {
     }
 
     void Container::AdvanceOneFrame() {
+    }
 
+    void Container::MovePlayer(int distance) {
+        ball_.move(distance);
     }
 
 }  // namespace droppingball

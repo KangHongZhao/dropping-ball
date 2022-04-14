@@ -22,7 +22,7 @@ namespace droppingball  {
 
         void DrawBall();
 
-        void ResetPosition();
+        void SetPosition(vec2 initial_position_);
 
         void SetVelocity(vec2 velocity);
 
@@ -31,6 +31,8 @@ namespace droppingball  {
         vec2 GetPosition();
 
         float GetRadius();
+
+        void Ball::move(int distance);
 
 
     private:

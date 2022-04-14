@@ -19,8 +19,10 @@ namespace droppingball {
 
         const int kWindowSize = 1000;
         const int kMargin = 1000;
+        void ballGame::keyDown(ci::app::KeyEvent event);
 
     private:
         Container container_ = Container();
+        const int kMovePixel = 8;
     };
 }

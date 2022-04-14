@@ -30,6 +30,8 @@ namespace droppingball {
          */
         void AdvanceOneFrame();
 
+        void Container::MovePlayer(int distance);
+
     private:
         /**
          * This variable is just for the purposes of demonstrating how to make a shape move
