@@ -28,6 +28,10 @@ namespace droppingball {
         return radius_;
     }
 
+    void Ball::ResetPosition() {
+        position_ = initial_position_;
+    }
+
     void Ball::UpdateParticle() {
         position_ += velocity_;
     }

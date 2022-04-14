@@ -9,6 +9,9 @@
 
 namespace droppingball {
 
+/**
+ * The game engine of the dropping ball
+ */
     class ballGame: public ci::app::App {
     public:
         ballGame();

@@ -16,7 +16,7 @@ namespace droppingball  {
    */
     public:
 
-        Ball( float radius,  vec2 position,  vec2 velocity);
+        Ball(float radius, vec2 position, vec2 velocity);
 
         void DrawBall();
 
@@ -27,6 +27,8 @@ namespace droppingball  {
         void Ball::move(int distance);
 
         void Ball::UpdateParticle();
+
+        void Ball::ResetPosition();
 
     private:
         float radius_;

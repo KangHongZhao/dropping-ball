@@ -1,4 +1,5 @@
 #include "container.h"
+#include "dropping_ball_game.h"
 
 namespace droppingball {
 
@@ -17,6 +18,9 @@ namespace droppingball {
     }
 
     void Container::AdvanceOneFrame() {
+        if(ball_.GetPosition().y + ball_.GetRadius() > windowSize) {
+            Restart();
+        }
     }
 
     void Container::MovePlayer(int distance) {
@@ -27,8 +31,12 @@ namespace droppingball {
                   && (stair_3.GetLeftPosition().x <= ball_.GetPosition().x && stair_3.GetRightPosition().x >= ball_.GetPosition().x)) {
             ball_.move(distance);
         } else {
-                ball_.UpdateParticle();
+            ball_.UpdateParticle();
         }
+    }
+
+    void Container::Restart() {
+        ball_.ResetPosition();
     }
 
     Ball& Container::GetBall() {

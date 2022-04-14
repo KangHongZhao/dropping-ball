@@ -13,16 +13,30 @@ namespace droppingball {
  */
     class Container {
     public:
-
+        /***
+         * container constructor
+         */
         Container();
 
+        /***
+         * display the game container
+         */
         void Display();
 
+        /***
+         * update
+         */
         void AdvanceOneFrame();
 
+        /***
+         * function to move the ball at a given distance
+         */
         void Container::MovePlayer(int distance);
 
+        void Container::Restart();
+
         Ball& Container::GetBall();
+
         Stair& Container::GetStair();
 
     private:
@@ -34,6 +48,7 @@ namespace droppingball {
         Stair stair_2 = Stair(vec2(100, 600), vec2(300, 600));
         Stair stair_3 = Stair(vec2(400, 900), vec2(600, 900));
         Ball ball_ = Ball(18, vec2(600, 82), vec2(0, 10));
+        const int windowSize = 1000;
     };
 
 }  // namespace droppingball
