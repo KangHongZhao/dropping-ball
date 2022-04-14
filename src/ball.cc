@@ -39,4 +39,8 @@ namespace droppingball {
     float Ball::GetRadius() {
         return radius_;
     }
+
+    void Ball::UpdateParticle() {
+        position_ += velocity_;
+    }
 }

@@ -1,4 +1,3 @@
-
 #include "container.h"
 
 namespace droppingball {
@@ -21,7 +20,15 @@ namespace droppingball {
     }
 
     void Container::MovePlayer(int distance) {
-        ball_.move(distance);
-    }
+        if((ball_.GetPosition().y + ball_.GetRadius() == stair_.GetLeftPosition().y)
+        && (stair_.GetLeftPosition().x <= ball_.GetPosition().x && stair_.GetRightPosition().x >= ball_.GetPosition().x)) {
+            ball_.move(distance);
+        } else if((ball_.GetPosition().y + ball_.GetRadius() == stair_3.GetLeftPosition().y)
+                  && (stair_3.GetLeftPosition().x <= ball_.GetPosition().x && stair_3.GetRightPosition().x >= ball_.GetPosition().x)) {
+            ball_.move(distance);
+        } else {
+                ball_.UpdateParticle();
+            }
+        }
 
 }  // namespace droppingball

@@ -41,7 +41,7 @@ namespace droppingball {
         Stair stair_1 = Stair(vec2(200, 300), vec2(400, 300));
         Stair stair_2 = Stair(vec2(100, 600), vec2(300, 600));
         Stair stair_3 = Stair(vec2(400, 900), vec2(600, 900));
-        Ball ball_ = Ball(18, vec2(600, 82), vec2(3, -3));
+        Ball ball_ = Ball(18, vec2(600, 82), vec2(-0, 10));
     };
 
 }  // namespace idealgas

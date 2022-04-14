@@ -34,6 +34,7 @@ namespace droppingball  {
 
         void Ball::move(int distance);
 
+        void Ball::UpdateParticle();
 
     private:
         float radius_;
