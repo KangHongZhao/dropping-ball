@@ -12,6 +12,7 @@ A rough timeline of what will get accomplished and when (e.g, "By the end of Wee
 By the end of week1, I will create the container, the ball and how the ball collide with the board
 By the end of week2, I will set timer to handle stuff, determine whether the ball dies and other losing conditions and add some graphics
 By the end of week3, I will create the menu, add more graphics multiple game modes with easy and difficult.
+By the end of week4, I will add more functionality like ranking and stuff
 
 If you were to finish the project early, what extra "stretch goals" could you implement?
 I can add some special effects like music and the music when you lose, create different obstacles.
