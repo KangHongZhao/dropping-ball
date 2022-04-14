@@ -28,7 +28,15 @@ namespace droppingball {
             ball_.move(distance);
         } else {
                 ball_.UpdateParticle();
-            }
         }
+    }
+
+    Ball& Container::GetBall() {
+        return ball_;
+    }
+
+    Stair& Container::GetStair() {
+        return stair_;
+    }
 
 }  // namespace droppingball

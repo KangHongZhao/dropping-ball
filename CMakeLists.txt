@@ -33,7 +33,7 @@ endif()
 FetchContent_Declare(
         catch2
         GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-        GIT_TAG v2.x
+        GIT_TAG devel
 )
 
 # Adds Catch2 testing library
@@ -49,12 +49,12 @@ get_filename_component(APP_PATH "${CMAKE_CURRENT_SOURCE_DIR}/" ABSOLUTE)
 
 include("${CINDER_PATH}/proj/cmake/modules/cinderMakeApp.cmake")
 
-list(APPEND SOURCE_FILES  src/ball.cc
+list(APPEND SOURCE_FILES src/ball.cc
         src/stair.cc
         src/dropping_ball_game.cc
         src/container.cc)
 
-list(APPEND TEST_FILES tests/test_main.cc)
+list(APPEND TEST_FILES tests/test_container.cc)
 
 ci_make_app(
         APP_NAME        dropping-ball

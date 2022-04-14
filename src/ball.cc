@@ -16,20 +16,8 @@ namespace droppingball {
         ci::gl::drawSolidCircle(position_, radius_);
     }
 
-    void Ball::SetPosition(vec2 initial_position_) {
-        position_ = initial_position_;
-    }
-
-    void Ball::SetVelocity(vec2 velocity) {
-        velocity_ = velocity;
-    }
-
     void Ball::move(int distance) {
         position_.x = position_.x + distance;
-    }
-
-    vec2 Ball::GetVelocity() {
-        return velocity_;
     }
 
     vec2 Ball::GetPosition() {

@@ -18,15 +18,7 @@ namespace droppingball  {
 
         Ball( float radius,  vec2 position,  vec2 velocity);
 
-        void MoveBall();
-
         void DrawBall();
-
-        void SetPosition(vec2 initial_position_);
-
-        void SetVelocity(vec2 velocity);
-
-        vec2 GetVelocity();
 
         vec2 GetPosition();
 

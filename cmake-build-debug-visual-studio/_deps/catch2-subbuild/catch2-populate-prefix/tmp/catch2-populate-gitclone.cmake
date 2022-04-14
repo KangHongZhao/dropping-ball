@@ -32,12 +32,12 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Program Files/Git/cmd/git.exe"  checkout v2.x --
+  COMMAND "C:/Program Files/Git/cmd/git.exe"  checkout devel --
   WORKING_DIRECTORY "C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/_deps/catch2-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: 'v2.x'")
+  message(FATAL_ERROR "Failed to checkout tag: 'devel'")
 endif()
 
 set(init_submodules TRUE)

@@ -16,6 +16,9 @@
     <ClCompile Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\src\container.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\tests\test_container.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\CMakeLists.txt" />

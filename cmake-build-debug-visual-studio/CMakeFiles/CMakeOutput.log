@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/13/2022 5:12:13 PM.
+Build started 4/13/2022 11:00:53 PM.
 Project "C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\3.21.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.53
+Time Elapsed 00:00:00.69
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/13/2022 5:12:14 PM.
+Build started 4/13/2022 11:00:54 PM.
 Project "C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\3.21.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.53
+Time Elapsed 00:00:00.65
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,34 +92,34 @@ The CXX compiler identification is MSVC, found in "C:/Users/12173/Desktop/Cinder
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_05dc3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_63161.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05dc3.dir\Debug\\" /Fd"cmTC_05dc3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63161.dir\Debug\\" /Fd"cmTC_63161.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
-  cmTC_05dc3.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_05dc3.exe
-  cmTC_05dc3.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_05dc3.pdb (Full PDB)
+  cmTC_63161.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_63161.exe
+  cmTC_63161.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_63161.pdb (Full PDB)
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_7c008.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_b1a41.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c008.dir\Debug\\" /Fd"cmTC_7c008.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b1a41.dir\Debug\\" /Fd"cmTC_b1a41.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
-  cmTC_7c008.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_7c008.exe
-  cmTC_7c008.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_7c008.pdb (Full PDB)
+  cmTC_b1a41.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_b1a41.exe
+  cmTC_b1a41.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_b1a41.pdb (Full PDB)
 
 
 
@@ -128,17 +128,17 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 Detecting CXX [-std:c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_e9611.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_3e0d7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e9611.dir\Debug\\" /Fd"cmTC_e9611.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -std:c++14 "C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3e0d7.dir\Debug\\" /Fd"cmTC_3e0d7.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -std:c++14 "C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
-  cmTC_e9611.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_e9611.exe
-  cmTC_e9611.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_e9611.pdb (Full PDB)
+  cmTC_3e0d7.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_3e0d7.exe
+  cmTC_3e0d7.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_3e0d7.pdb (Full PDB)
 
 
 
@@ -204,17 +204,17 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_3a10a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_78edb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3a10a.dir\Debug\\" /Fd"cmTC_3a10a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_78edb.dir\Debug\\" /Fd"cmTC_78edb.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
-  cmTC_3a10a.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_3a10a.exe
-  cmTC_3a10a.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_3a10a.pdb (Full PDB)
+  cmTC_78edb.vcxproj -> C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\Debug\cmTC_78edb.exe
+  cmTC_78edb.vcxproj -> C:/Users/12173/Desktop/Cinder/my-projects/final-project-KangHongZhao/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp/Debug/cmTC_78edb.pdb (Full PDB)
 
 
 
