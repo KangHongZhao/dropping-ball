@@ -18,8 +18,14 @@ namespace droppingball {
     }
 
     void Container::AdvanceOneFrame() {
-        if(ball_.GetPosition().y + ball_.GetRadius() > windowSize) {
+        if (ball_.GetPosition().y + ball_.GetRadius() > windowSize) {
             Restart();
+        }
+        if ((!((ball_.GetPosition().y + ball_.GetRadius() == stair_.GetLeftPosition().y)
+            && (stair_.GetLeftPosition().x <= ball_.GetPosition().x && stair_.GetRightPosition().x >= ball_.GetPosition().x))) &&
+        (!((ball_.GetPosition().y + ball_.GetRadius() == stair_3.GetLeftPosition().y)
+              && (stair_3.GetLeftPosition().x <= ball_.GetPosition().x && stair_3.GetRightPosition().x >= ball_.GetPosition().x)))){
+            ball_.UpdateParticle();
         }
     }
 

@@ -24,7 +24,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/CL.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping_ball_game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping_ball_game.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/stair.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/stair.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/test_container.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/test_container.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test/Debug/dropping-ball-test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test/Debug/dropping-ball-test.exe" afterDir="false" />
@@ -37,18 +36,11 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping_ball_game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping_ball_game.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/stair.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/stair.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ball.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/ball.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/container.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/container.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/dropping_ball_game.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/dropping_ball_game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/stair.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/stair.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ball.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/ball.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/container.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dropping_ball_game.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dropping_ball_game.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649843041080</updated>
       <workItem from="1649843042854" duration="23264000" />
-      <workItem from="1649908471911" duration="11648000" />
+      <workItem from="1649908471911" duration="13210000" />
     </task>
     <task id="LOCAL-00001" summary="upload basic project structure">
       <created>1649885048512</created>
