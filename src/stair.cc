@@ -22,5 +22,10 @@ namespace droppingball {
     vec2 Stair::GetRightPosition() {
         return right_position_;
     }
+
+    void Stair::move(int distance) {
+        left_position_.y = left_position_.y + distance;
+        right_position_.y = right_position_.y + distance;
+    }
 }
 

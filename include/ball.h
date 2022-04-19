@@ -1,6 +1,7 @@
 #pragma once
 
 #include <glm/vec2.hpp>
+#include <stair.h>
 
 using glm::vec2;
 
@@ -29,6 +30,8 @@ namespace droppingball  {
         void Ball::UpdateParticle();
 
         void Ball::ResetPosition();
+
+        bool Ball::WhetherCollide(Stair stair);
 
     private:
         float radius_;

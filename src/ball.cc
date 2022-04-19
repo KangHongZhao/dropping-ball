@@ -1,4 +1,6 @@
 #include <ball.h>
+#include <stair.h>
+#include <container.h>
 #include "cinder/gl/gl.h"
 
 using glm::vec2;
@@ -34,5 +36,14 @@ namespace droppingball {
 
     void Ball::UpdateParticle() {
         position_ += velocity_;
+    }
+    bool Ball::WhetherCollide(Stair stair) {
+        if ((((position_.y + radius_) == stair.GetLeftPosition().y)
+               && (stair.GetLeftPosition().x <= position_.x && stair.GetRightPosition().x >= position_.x)
+               && (stair.GetLeftPosition().y - position_.y == radius_))){
+            return true;
+        } else {
+            return false;
+        }
     }
 }
