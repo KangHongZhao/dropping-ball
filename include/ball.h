@@ -33,6 +33,8 @@ namespace droppingball  {
 
         bool Ball::WhetherCollide(Stair stair);
 
+        void Ball::SetPosition(const vec2& position);
+
     private:
         float radius_;
         vec2 position_;

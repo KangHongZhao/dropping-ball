@@ -51,6 +51,9 @@ namespace droppingball {
         const int windowSize = 1000;
         std::list<Stair> stairs_;
         const size_t dis = 7;
+        const size_t kNumberStairs = 10;
+        size_t kCountStairs = 0;
+        const vec2 kBallVelocity = vec2(0,3);
     };
 
 }  // namespace droppingball

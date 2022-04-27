@@ -1,6 +1,8 @@
 #include "container.h"
 #include "dropping_ball_game.h"
 
+#include "cinder/Rand.h"
+
 namespace droppingball {
 
     using glm::vec2;
@@ -24,20 +26,20 @@ namespace droppingball {
         if (ball_.GetPosition().y + ball_.GetRadius() > windowSize) {
             Restart();
         }
-    }
-
-    void Container::MovePlayer(int distance) {
         bool we = false;
         for (Stair sta: stairs_) {
             if (ball_.WhetherCollide(sta)) {
                 we = true;
             }
         }
-        if (we == true) {
-            ball_.move(distance);
-        } else {
+        if (we == false) {
             ball_.UpdateParticle();
         }
+
+    }
+
+    void Container::MovePlayer(int distance) {
+        ball_.move(distance);
     }
 
     void Container::Restart() {

@@ -19,14 +19,20 @@ namespace droppingball  {
 
         void DrawStair();
 
-        vec2 GetLeftPosition();
+        const vec2 GetLeftPosition();
 
-        vec2 GetRightPosition();
+        const vec2 GetRightPosition();
 
-        void Stair::move(int distance);
+        void Stair::SetRightPosition(const vec2 right_position);
+
+        void Stair::SetLeftPosition(const vec2 left_position);
+
+        void Stair::Move();
+
 
     private:
         vec2 left_position_;
         vec2 right_position_;
+        const size_t kSpeed = 10;
     };
 }
