@@ -8,20 +8,9 @@ namespace droppingball {
     using glm::vec2;
 
     Container::Container() {
-
     }
 
     void Container::Display() {
-        stairs_.push_back(stair_3);
-        stairs_.push_back(stair_2);
-        stairs_.push_back(stair_1);
-        stairs_.push_back(stair_);
-        kCountStairs = kCountStairs + 1;
-        if (kCountStairs <= kNumberStairs) {
-            int random_y = 10 * ci::randInt(2,98);
-            int random_x = 10 * ci::randInt(2,78);
-            stairs_.push_back(Stair(vec2(random_x,random_y),vec2(random_x+200, random_y)));
-        }
         for (Stair num: stairs_) {
             num.DrawStair();
         }
@@ -29,19 +18,31 @@ namespace droppingball {
     }
 
     void Container::AdvanceOneFrame() {
-        if (ball_.GetPosition().y + ball_.GetRadius() > windowSize) {
+        if (ball_.GetPosition().y + ball_.GetRadius() > windowSize || ball_.GetPosition().y < 0) {
             Restart();
+        }
+        kCountStairs = kCountStairs + 1;
+        if (kCountStairs == kNumberStairs) {
+            int random_y = 20 * ci::randInt(2, 49);
+            int random_x = 20 * ci::randInt(2, 39);
+            stairs_.push_back(Stair(vec2(random_x, random_y), vec2(random_x + 100, random_y), kBallVelocity));
+            kCountStairs=0;
+        }
+        std::list<Stair>::iterator star;
+        for (star = stairs_.begin(); star != stairs_.end(); star++) {
+            star->Move();
         }
         bool we = false;
         for (Stair sta: stairs_) {
             if (ball_.WhetherCollide(sta)) {
                 we = true;
+                ball_.SetVelocity(kBallVelocityWithStair);
             }
         }
         if (we == false) {
-            ball_.UpdateParticle();
-        }
-
+            ball_.SetVelocity(kBallVelocity);
+           }
+        ball_.UpdateParticle();
     }
 
     void Container::MovePlayer(int distance) {
@@ -50,14 +51,11 @@ namespace droppingball {
 
     void Container::Restart() {
         ball_.ResetPosition();
+        stairs_.clear();
     }
 
     Ball& Container::GetBall() {
         return ball_;
-    }
-
-    Stair& Container::GetStair() {
-        return stair_;
     }
 
 }  // namespace droppingball

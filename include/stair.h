@@ -15,7 +15,7 @@ namespace droppingball  {
    */
     public:
 
-        Stair(const vec2 left_position, const vec2 right_velocity);
+        Stair(const vec2 left_position, const vec2 right_velocity, vec2 velocity);
 
         void DrawStair();
 
@@ -33,6 +33,6 @@ namespace droppingball  {
     private:
         vec2 left_position_;
         vec2 right_position_;
-        const size_t kSpeed = 10;
+        vec2 velocity_;
     };
 }

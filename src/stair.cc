@@ -4,9 +4,10 @@
 using glm::vec2;
 namespace droppingball {
 
-    Stair::Stair(const vec2 left_position, const vec2 right_position) {
+    Stair::Stair(const vec2 left_position, const vec2 right_position, vec2 velocity) {
         left_position_ = left_position;
         right_position_ = right_position;
+        velocity_ = velocity;
     }
 
     void Stair::DrawStair() {
@@ -15,8 +16,8 @@ namespace droppingball {
     }
 
     void Stair::Move() {
-        left_position_.y = left_position_.y - kSpeed;
-        right_position_.y = right_position_.y - kSpeed;
+        left_position_ -= velocity_;
+        right_position_ -= velocity_;
     }
 
     void Stair::SetLeftPosition(const vec2 left_position) {

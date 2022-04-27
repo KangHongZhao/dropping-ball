@@ -39,14 +39,13 @@ namespace droppingball {
     }
     bool Ball::WhetherCollide(Stair stair) {
         if ((((position_.y + radius_) == stair.GetLeftPosition().y)
-             && (stair.GetLeftPosition().x <= position_.x && stair.GetRightPosition().x >= position_.x)
-             && (stair.GetLeftPosition().y - position_.y == radius_))){
+             && (stair.GetLeftPosition().x <= position_.x && stair.GetRightPosition().x >= position_.x))){
             return true;
         } else {
             return false;
         }
     }
-    void Ball::SetPosition(const vec2& position) {
-        position_ = position;
+    void Ball::SetVelocity(const vec2& velocity) {
+        velocity_ = velocity;
     }
 }

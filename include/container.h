@@ -43,17 +43,14 @@ namespace droppingball {
         /**
          * stairs and ball variables
          */
-        Stair stair_ = Stair(vec2(500, 100), vec2(700, 100));
-        Stair stair_1 = Stair(vec2(200, 300), vec2(400, 300));
-        Stair stair_2 = Stair(vec2(100, 600), vec2(300, 600));
-        Stair stair_3 = Stair(vec2(400, 900), vec2(600, 900));
-        Ball ball_ = Ball(18, vec2(600, 82), vec2(0, 10));
+        Ball ball_ = Ball(20, vec2(600, 80), vec2(0, 2));
         const int windowSize = 1000;
         std::list<Stair> stairs_;
-        const size_t dis = 7;
-        const size_t kNumberStairs = 3;
+        const size_t dis = 6;
+        const size_t kNumberStairs = 30;
         size_t kCountStairs = 0;
-        const vec2 kBallVelocity = vec2(0,3);
+        const vec2 kBallVelocity = vec2(0,2);
+        const vec2 kBallVelocityWithStair = vec2(0,-2);
     };
 
 }  // namespace droppingball

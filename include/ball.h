@@ -2,6 +2,7 @@
 
 #include <glm/vec2.hpp>
 #include <stair.h>
+#include "cinder/gl/gl.h"
 
 using glm::vec2;
 
@@ -33,7 +34,7 @@ namespace droppingball  {
 
         bool Ball::WhetherCollide(Stair stair);
 
-        void Ball::SetPosition(const vec2& position);
+        void Ball::SetVelocity(const vec2& velocity);
 
     private:
         float radius_;
