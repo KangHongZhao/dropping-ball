@@ -12,7 +12,8 @@ namespace droppingball {
 
     void Stair::DrawStair() {
         ci::gl::color(ci::Color("Green"));
-        ci::gl::drawLine(left_position_, right_position_);
+        ci::gl::drawSolidRect(ci::Rectf(glm::vec2(left_position_.x, left_position_.y),
+                          glm::vec2(right_position_.x, right_position_.y - stair_width_)));
     }
 
     void Stair::Move() {

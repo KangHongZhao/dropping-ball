@@ -16,25 +16,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0eb3a9e-f9f4-4798-b97c-8ead3c183192" name="Changes" comment="upload basic project structure">
+      <change afterPath="$PROJECT_DIR$/assets/background.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/ball.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/ball.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/cinder_app_main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/cinder_app_main.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/container.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/container.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.294.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.294.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.412.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.412.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.read.125.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.write.125.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.26.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.26.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.43.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.43.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.51.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.51.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping_ball_game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping_ball_game.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/stair.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/stair.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/container.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/container.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/dropping_ball_game.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/dropping_ball_game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/container.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dropping_ball_game.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dropping_ball_game.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stair.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/stair.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -96,10 +99,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\assets" />
       <recent name="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao" />
       <recent name="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\tests" />
       <recent name="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\src" />
       <recent name="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\include" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\assets" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.dropping-ball">
@@ -136,7 +143,7 @@
       <workItem from="1649843042854" duration="23264000" />
       <workItem from="1649908471911" duration="16519000" />
       <workItem from="1650254662392" duration="21488000" />
-      <workItem from="1650919441113" duration="36720000" />
+      <workItem from="1650919441113" duration="40802000" />
     </task>
     <task id="LOCAL-00001" summary="upload basic project structure">
       <created>1649885048512</created>

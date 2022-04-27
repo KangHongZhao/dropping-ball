@@ -65,6 +65,7 @@ namespace droppingball {
         ball_.SetVelocity(kBallVelocity);
         stairs_.clear();
         score_ = 0;
+        kCountStairs = 0;
         ci::gl::clear(ci::Color("Orange"), true);
         ci::gl::clear(ci::Color("Green"), true);
     }

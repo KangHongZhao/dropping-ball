@@ -34,5 +34,6 @@ namespace droppingball  {
         vec2 left_position_;
         vec2 right_position_;
         vec2 velocity_;
+        const size_t stair_width_ = 5;
     };
 }
