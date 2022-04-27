@@ -16,6 +16,12 @@ namespace droppingball {
         stairs_.push_back(stair_2);
         stairs_.push_back(stair_1);
         stairs_.push_back(stair_);
+        kCountStairs = kCountStairs + 1;
+        if (kCountStairs <= kNumberStairs) {
+            int random_y = 10 * ci::randInt(2,98);
+            int random_x = 10 * ci::randInt(2,78);
+            stairs_.push_back(Stair(vec2(random_x,random_y),vec2(random_x+200, random_y)));
+        }
         for (Stair num: stairs_) {
             num.DrawStair();
         }
