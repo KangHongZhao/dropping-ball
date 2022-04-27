@@ -27,6 +27,6 @@ namespace droppingball {
 
     private:
         Container container_ = Container();
-        const int kMovePixel = 10;
+        const int kMovePixel = 12;
     };
 }
