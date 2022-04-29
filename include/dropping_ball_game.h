@@ -10,22 +10,29 @@
 
 namespace droppingball {
 
-/**
- * The game engine of the dropping ball
- */
     class ballGame: public ci::app::App {
     public:
+        /**
+        * the ballgame constructor
+        */
         ballGame();
-
-        void draw() override;
-
-        void update() override;
-
-        const int kWindowSize = 1000;
-        const int kMargin = 1000;
+        /**
+        * draw function to draw all the objects
+        */
+        void draw();
+        /**
+        * update the board
+        */
+        void update();
+        /**
+        * keyboard controls
+        * @param event the keyboard event
+        */
         void ballGame::keyDown(ci::app::KeyEvent event);
 
     private:
+        const int kWindowSize = 1000;
+        const int kMargin = 1000;
         Container container_ = Container();
         const int kMovePixel = 12;
     };

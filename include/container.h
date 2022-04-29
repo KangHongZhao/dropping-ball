@@ -27,22 +27,25 @@ namespace droppingball {
          * update
          */
         void AdvanceOneFrame();
-
         /***
-         * function to move the ball at a given distance
+         * function to move the ball at a given distance horizontally
+         * @param distance the distance of the ball horizontally
          */
         void Container::MovePlayer(int distance);
-
+        /***
+        * restart the game when the ball dies or the player press restart button
+        */
         void Container::Restart();
-
+        /***
+        * get the ball object for testing
+        */
         Ball& Container::GetBall();
-
+        /***
+        * get the stair object for testing
+        */
         Stair& Container::GetStair();
 
     private:
-        /**
-         * stairs and ball variables
-         */
         Ball ball_ = Ball(21, vec2(600, 90), vec2(0, 3));
         const int windowSize = 1000;
         std::list<Stair> stairs_;
@@ -58,7 +61,7 @@ namespace droppingball {
         const cinder::ColorT<float> kMessageColor = "white";
         const glm::vec2 kHighestLocation = glm::vec2(600, 50);
         const glm::vec2 kLocation = glm::vec2(700, 100);
-        ci::Font kFont = ci::Font("Helvetica Neue", 55);
+        ci::Font kFont = ci::Font("Helvetica Neue", 50);
     };
 
 }  // namespace droppingball
