@@ -52,6 +52,7 @@ namespace droppingball {
         const size_t dis = 6;
         const size_t kNumberStairs = 30;
         size_t kCountStairs = 0;
+        const size_t kWindowMagin = 1000;
         const vec2 kBallVelocity = vec2(0,3);
         const vec2 kBallVelocityWithStair = vec2(0,-3);
         size_t score_;

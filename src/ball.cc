@@ -18,7 +18,7 @@ namespace droppingball {
         ci::gl::drawSolidCircle(position_, radius_);
     }
 
-    void Ball::move(int distance) {
+    void Ball::Move(int distance) {
         position_.x = position_.x + distance;
     }
 
@@ -38,6 +38,7 @@ namespace droppingball {
         position_ += velocity_;
     }
     bool Ball::WhetherCollide(Stair stair) {
+        // if the ball is within the range of the stair and the y coordinate minus the raidus equals the y coordinate of the stair
         if ((((position_.y + radius_) == stair.GetLeftPosition().y)
              && (stair.GetLeftPosition().x <= position_.x && stair.GetRightPosition().x >= position_.x))){
             return true;

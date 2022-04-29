@@ -34,7 +34,7 @@ namespace droppingball  {
         * to move the ball horizontally on the stair
         * @param distance the distance of the ball moving on the stair
         */
-        void Ball::move(int distance);
+        void Ball::Move(int distance);
         /***
         * to move the ball when the ball is off the stair, update the ball with its velocity
         */

@@ -9,6 +9,7 @@ namespace droppingball {
     void ballGame::draw() {
         ci::Color background_color("Black");
         ci::gl::clear(background_color);
+        //load the image
         cinder::gl::Texture2dRef image;
         image = cinder::gl::Texture2d::create(loadImage(cinder::app::loadAsset("background.gif")));
         cinder::Rectf drawRect(0.0f, 0.0f, 1000.0f, 1000.0f);
