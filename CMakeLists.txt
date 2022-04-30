@@ -33,7 +33,7 @@ endif()
 FetchContent_Declare(
         catch2
         GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-        GIT_TAG devel
+        GIT_TAG v2.x
 )
 
 # Adds Catch2 testing library
@@ -54,7 +54,9 @@ list(APPEND SOURCE_FILES src/ball.cc
         src/dropping_ball_game.cc
         src/container.cc)
 
-list(APPEND TEST_FILES tests/test_container.cc)
+list(APPEND TEST_FILES tests/test_container.cc
+        tests/test_stair.cc
+        tests/test_ball.cc)
 
 ci_make_app(
         APP_NAME        dropping-ball

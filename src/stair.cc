@@ -25,8 +25,8 @@ namespace droppingball {
         left_position_ = left_position;
     }
 
-    void Stair::SetRightPosition(const vec2 left_position) {
-        left_position_ = left_position;
+    void Stair::SetRightPosition(const vec2 right_position) {
+        right_position_ = right_position;
     }
 
     const vec2 Stair::GetLeftPosition() {

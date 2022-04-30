@@ -4,9 +4,9 @@
 #include "cinder/Rand.h"
 #include "cinder/gl/gl.h"
 
-namespace droppingball {
+using glm::vec2;
 
-    using glm::vec2;
+namespace droppingball {
 
     Container::Container() {
         score_ = 0;

@@ -17,27 +17,353 @@
   <component name="ChangeListManager">
     <list default="true" id="f0eb3a9e-f9f4-4798-b97c-8ead3c183192" name="Changes" comment="upload basic project structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/ball.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/ball.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/cinder_app_main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/cinder_app_main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/container.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/container.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.34.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.34.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.43.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.43.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.51.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.51.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.64.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.64.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping_ball_game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping_ball_game.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ball.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/ball.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/container.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/container.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ball.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/ball.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ball.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_stair.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cache-v2-4b6a63b957ffad779357.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cmakeFiles-v1-3f996f6eccd00e9c3ff2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/codemodel-v2-3475254298fd6912aca5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/directory-.-MinSizeRel-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/index-2022-04-14T04-01-13-0987.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ALL_BUILD-Debug-42bbf3688586ecf1ea6d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-42bbf3688586ecf1ea6d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-42bbf3688586ecf1ea6d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ALL_BUILD-Release-42bbf3688586ecf1ea6d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ZERO_CHECK-Debug-257b933c6dee698e8b5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ZERO_CHECK-MinSizeRel-257b933c6dee698e8b5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ZERO_CHECK-RelWithDebInfo-257b933c6dee698e8b5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-ZERO_CHECK-Release-257b933c6dee698e8b5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-Debug-398e545cd2f891924d5d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-MinSizeRel-b291fee5f9b312ce4a1a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-RelWithDebInfo-702a715492ebf6d3016d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-Release-cce1c1457d8bc3cc1122.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-test-Debug-7180c2dcd57a9ec536ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-test-MinSizeRel-0f7044abf66b9f41adf7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-test-RelWithDebInfo-ea9ef8951b0d84c79b60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-dropping-ball-test-Release-a43e676d06acd26869b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/toolchains-v1-a5b834f1618508957c40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/ALL_BUILD.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/ALL_BUILD.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/CompilerIdC.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/CompilerIdC.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/VCTargetsPath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.21.1/VCTargetsPath.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/ff152c3bca8e4679dfae59a493cd4cf0/generate.stamp.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/ZERO_CHECK.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/ALL_BUILD.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/ALL_BUILD.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/2037f2358da19e298e80728ec01e6d7f/catch2-populate.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/2037f2358da19e298e80728ec01e6d7f/generate.stamp.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/3.21.1/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/3.21.1/VCTargetsPath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/3.21.1/VCTargetsPath.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/75ae5be8b9717a47a03fbb00caf4c673/catch2-populate-complete.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/Debug/catch2-populate-complete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-build.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-configure.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-download.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-install.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-mkdir.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-patch.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-test.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/a885cae6b8b71f378ca1d70486e62c23/catch2-populate-update.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir/Labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir/Labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/generate.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/generate.stamp.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeFiles/generate.stamp.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/catch2-populate/catch2-populate.tlog/catch2-populate.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/catch2-populate/catch2-populate.tlog/custombuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/catch2-populate/catch2-populate.tlog/custombuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/Win32/Debug/catch2-populate/catch2-populate.tlog/custombuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/ZERO_CHECK.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-done" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-mkdir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-gitclone-lastrun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-gitinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-cfgcmd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-cfgcmd.txt.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-gitclone.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-gitupdate.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/catch2-populate.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/_deps/catch2-subbuild/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/ball.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/container.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/custombuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/custombuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/custombuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/dropping-ball-test.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.delete.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.delete.33.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.delete.43.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.delete.53.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.delete.66.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.11.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.13.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.15.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.20.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.21.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.26.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.27.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.28.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.29.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.33.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.43.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.53.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.read.66.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.write.26.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.write.33.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.write.43.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.write.53.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-VCTIP.write.66.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-rc.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link-rc.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.45548-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.45548-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.45548-rc.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.45548-rc.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.45548.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.45548.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping.6B3C9F02.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/dropping_ball_game.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/stair.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/test_container.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/test_main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.dir/Debug/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball-test/Debug/dropping-ball-test.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/ball.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/cinder_app_main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/container.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/custombuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/custombuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/custombuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/dropping-ball.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.101.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.102.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.103.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.11.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.112.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.114.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.115.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.120.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.121.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.123.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.124.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.125.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.13.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.131.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.134.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.135.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.138.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.139.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.145.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.147.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.148.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.149.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.15.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.152.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.156.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.162.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.163.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.164.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.167.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.170.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.171.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.172.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.173.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.174.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.176.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.179.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.18.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.189.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.193.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.200.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.202.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.212.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.214.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.219.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.22.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.225.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.240.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.253.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.256.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.259.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.26.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.268.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.290.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.294.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.299.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.301.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.317.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.33.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.331.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.332.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.335.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.34.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.347.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.374.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.377.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.381.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.387.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.39.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.399.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.40.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.41.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.412.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.419.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.42.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.423.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.425.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.43.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.441.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.449.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.45.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.450.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.455.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.46.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.463.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.476.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.478.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.482.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.487.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.49.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.493.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.494.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.51.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.52.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.53.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.54.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.57.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.60.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.61.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.62.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.63.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.64.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.65.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.66.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.67.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.68.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.70.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.72.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.74.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.76.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.77.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.78.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.79.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.87.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.88.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.89.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.9.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.90.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.91.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.92.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.97.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link-VCTIP.delete.99.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping-ball.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/dropping_ball_game.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/stair.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.dir/Debug/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/dropping-ball/Debug/dropping-ball.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/final-project.sln" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/container.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stair.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/stair.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_container.cc" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_container.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +435,12 @@
       <recent name="C:\Users\12173\Desktop\Cinder\my-projects\final-project-KangHongZhao\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.dropping-ball">
+  <component name="RunManager" selected="Catch.All in dropping-ball-test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in dropping-ball-test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="dropping-ball-test" CONFIG_NAME="Debug-Visual Studio" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="dropping-ball-test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -143,7 +474,7 @@
       <workItem from="1649843042854" duration="23264000" />
       <workItem from="1649908471911" duration="16519000" />
       <workItem from="1650254662392" duration="21488000" />
-      <workItem from="1650919441113" duration="54121000" />
+      <workItem from="1650919441113" duration="64161000" />
     </task>
     <task id="LOCAL-00001" summary="upload basic project structure">
       <created>1649885048512</created>
