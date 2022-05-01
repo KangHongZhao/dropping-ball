@@ -1,4 +1,7 @@
 #include <dropping_ball_game.h>
+#include "cinder/app/App.h"
+#include "cinder/app/RendererGl.h"
+#include "cinder/gl/gl.h"
 
 namespace droppingball {
 

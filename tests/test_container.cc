@@ -22,6 +22,3 @@ TEST_CASE("test if the container can detect the collision") {
         REQUIRE(ball.WhetherCollide(stair) == false);
     }
 }
-
-TEST_CASE("test if the user can move the ball with the keyboard arrows") {
-}

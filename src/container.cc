@@ -1,5 +1,5 @@
 #include "container.h"
-#include "dropping_ball_game.h"
+#include "stair.h"
 
 #include "cinder/Rand.h"
 #include "cinder/gl/gl.h"
@@ -34,8 +34,8 @@ namespace droppingball {
         //push back randomly generated stairs
         kCountStairs = kCountStairs + 1;
         if (kCountStairs == kNumberStairs) {
-            int random_y = 24 * ci::randInt(1, 41);
-            int random_x = 24 * ci::randInt(1, 32);
+            int random_y = coefficient * ci::randInt(1, max_y);
+            int random_x = coefficient * ci::randInt(1, max_x);
             stairs_.push_back(Stair(vec2(random_x, random_y), vec2(random_x + 102, random_y), kBallVelocity));
             kCountStairs=0;
         }

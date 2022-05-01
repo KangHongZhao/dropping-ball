@@ -48,6 +48,9 @@ namespace droppingball {
     private:
         Ball ball_ = Ball(21, vec2(600, 90), vec2(0, 3));
         const int windowSize = 1000;
+        const int max_y = 41;
+        const int max_x = 32;
+        const int coefficient = 24;
         std::list<Stair> stairs_;
         const size_t dis = 6;
         const size_t kNumberStairs = 30;
