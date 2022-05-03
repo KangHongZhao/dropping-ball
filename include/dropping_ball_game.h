@@ -16,14 +16,17 @@ namespace droppingball {
         * the ballgame constructor
         */
         ballGame();
+
         /**
         * draw function to draw all the objects
         */
         void draw();
+
         /**
         * update the board
         */
         void update();
+
         /**
         * keyboard controls
         * @param event the keyboard event

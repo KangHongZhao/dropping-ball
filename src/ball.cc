@@ -37,6 +37,7 @@ namespace droppingball {
     void Ball::UpdateParticle() {
         position_ += velocity_;
     }
+
     bool Ball::WhetherCollide(Stair stair) {
         // if the ball is within the range of the stair and the y coordinate minus the raidus equals the y coordinate of the stair
         if ((((position_.y + radius_) == stair.GetLeftPosition().y)
@@ -46,6 +47,7 @@ namespace droppingball {
             return false;
         }
     }
+
     void Ball::SetVelocity(const vec2& velocity) {
         velocity_ = velocity;
     }

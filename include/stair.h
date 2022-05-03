@@ -15,28 +15,34 @@ namespace droppingball  {
         * @param velocity the velocity of the stair
         */
         Stair(const vec2 left_position, const vec2 right_velocity, vec2 velocity);
+
         /***
         * to draw the stairs in solid rectangle
         */
         void DrawStair();
+
         /***
         * to get the left point of the stair
         */
         const vec2 GetLeftPosition();
+
         /***
         * to get the right point of the stair
         */
         const vec2 GetRightPosition();
+
         /***
         * to set the new right point of the stair
         * @param right_position right point of the stair
         */
         void Stair::SetRightPosition(const vec2 right_position);
+
         /***
         * to get the left point of the stair
         * @param left_position the left point of the stair
         */
         void Stair::SetLeftPosition(const vec2 left_position);
+
         /***
         * to move the stair vertically
         */

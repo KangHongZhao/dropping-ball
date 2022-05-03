@@ -35,5 +35,4 @@ namespace droppingball {
             container_.Restart();
         }
     }
-
 }
