@@ -36,4 +36,5 @@ namespace droppingball {
     const vec2 Stair::GetRightPosition() {
         return right_position_;
     }
+
 }

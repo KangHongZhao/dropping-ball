@@ -50,6 +50,7 @@ namespace droppingball {
         Stair& Container::GetStair();
 
     private:
+        Stair stair_ = Stair(vec2(500, 100), vec2(700, 100), vec2(0,10));
         Ball ball_ = Ball(21, vec2(600, 90), vec2(0, 3));
         const int windowSize = 1000;
         const int max_y = 41;
@@ -66,10 +67,11 @@ namespace droppingball {
         size_t highest_score_;
         std::string kMessage = "Score: ";
         std::string kHighestMessage = "highest Score: ";
+        const std::string kSymbolChar = "Helvetica Neue";
+        const float kSymbolSize = 50;
         const cinder::ColorT<float> kMessageColor = "white";
         const glm::vec2 kHighestLocation = glm::vec2(600, 50);
         const glm::vec2 kLocation = glm::vec2(700, 100);
-        ci::Font kFont = ci::Font("Helvetica Neue", 50);
     };
 
 }  // namespace droppingball

@@ -51,4 +51,5 @@ namespace droppingball {
     void Ball::SetVelocity(const vec2& velocity) {
         velocity_ = velocity;
     }
+
 }

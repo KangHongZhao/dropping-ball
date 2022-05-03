@@ -20,9 +20,9 @@ namespace droppingball {
         }
         ball_.DrawBall();
         ci::gl::drawString(kMessage+ std::to_string(score_), kLocation,
-                           kMessageColor, kFont);
+                           kMessageColor,ci::Font(kSymbolChar, kSymbolSize));
         ci::gl::drawString(kHighestMessage+ std::to_string(highest_score_), kHighestLocation,
-                           kMessageColor, kFont);
+                           kMessageColor,ci::Font(kSymbolChar, kSymbolSize));
     }
 
     void Container::AdvanceOneFrame() {
@@ -79,6 +79,10 @@ namespace droppingball {
 
     Ball& Container::GetBall() {
         return ball_;
+    }
+
+    Stair& Container::GetStair() {
+        return stair_;
     }
 
 }  // namespace droppingball
